@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "my-d1-project",
+  "main": "src/index.ts",
+  "compatibility_date": "2024-05-08",
+  "d1_databases": [
+    {
+      "binding": "DB", 
+      "database_name": "eggsy-db",
+      "database_id": "cd605321-2b10-47c5-8901-832ed89293f5",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
